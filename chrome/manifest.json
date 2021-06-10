@@ -3,10 +3,13 @@
     "name": "no-framer-footer",
     "version": "1.0",
     "icons": {
-      "48": "icon.png"
+        "48": "icon.png"
     },
     "description": "Remove the 'free plan' footer in a Framer project",
-    "background": {
-        "service_worker": "script.js"
-    } 
+    "content_scripts": [
+        {
+            "matches": ["*://framer.com/projects/*"],
+            "js": ["script.js"]
+        }
+    ]
   }
