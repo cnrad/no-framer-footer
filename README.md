@@ -7,15 +7,7 @@ This is quite possibly the easiest thing I've ever made
 
 ## Install on Firefox
 
-[link will provided soon](https://www.youtube.com/watch?v=oHg5SJYRHA0)
-
-For now:
-
-1. Either clone this repository to your computer, or download the files.
-2. Visit `about:debugging#/runtime/this-firefox`
-3. Click "Load Temporary Add-on"
-4. Navigate to the directory and select the `manifest.json` file
-5. The extension should be now installed and working.
+[Add to Firefox](https://addons.mozilla.org/en-US/firefox/addon/no-framer-footer/)
 
 ## Install on Chrome
 
